@@ -51,14 +51,21 @@ much of this comes from and where it can lead to, admittedly straining the title
 45. Bare metal development.
 46. Fundamentals of CPU design from the hardware point of view.
 47. Hardware description languages : ARM revisited from another point of view.
-48. VHDL and IP : the Xilinx/Zynq platform as an example.
-49. Buses : getting data from A to B ; SPI, I2C, USB, PCI, PCIe, uTCA, serial
-50. SoC and SoM : on-chip, off-chip, single board, multi board.
-51. FPGA - tying some of the above together.
-52. Embedded world : from power on, to application : what happens?
-53. Bootloaders : uBoot.  Bootlin.
-54. IoT, IIoT, AIoT.
-55. Machine learning, AI, Tensorflow, GPU
-56. HPC
-57. Cloud/Edge
-58. 
+49. VHDL and IP : the Xilinx/Zynq platform as an example.
+50. Buses : getting data from A to B ; SPI, I2C, USB, PCI, PCIe, uTCA, serial
+51. SoC and SoM : on-chip, off-chip, single board, multi board.
+52. FPGA - tying some of the above together.
+53. Embedded world : from power on, to application : what happens?
+54. Bootloaders : uBoot.  Bootlin.
+55. IoT, IIoT, AIoT.
+56. Machine learning, AI, Tensorflow, GPU
+57. HPC
+58. Cloud/Edge
+59. 
+
+## Motivational Examples
+
+### Global Search and Replace
+
+find . -name Makefile | xargs sed -i 's/aarch64-elf-/aarch64-linux-gnu-/'
+
